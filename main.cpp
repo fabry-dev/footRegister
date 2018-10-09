@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
     rw->setGeometry(screen1->geometry().x(),screen1->geometry().y(),1920,1080);
     sw->setGeometry(screen2->geometry().x(),screen1->geometry().y(),1920,1080);
 
-    //rw->start();
+    rw->start();
     sw->start();
 
     return a.exec();

@@ -439,6 +439,7 @@ void registerWindow::getScoreUpdate(int id, int state)
 QString convertToArabic(QString nb)
 {
 
+    return nb;
 
 
     QString enA = "0123456789";

@@ -115,7 +115,7 @@ void scorewindow::drawScores()
             p1.drawText(QRect(zeroScorex+670,zeroScore1y+deltaScorey*i,560,100), Qt::AlignHCenter, names.at(i));
             p1.drawText(QRect(zeroScorex+485,zeroScore1y+deltaScorey*i,100,100), Qt::AlignHCenter,  convertToArabic(scores1.at(i)));
             p1.drawText(QRect(zeroScorex+485-160,zeroScore1y+deltaScorey*i,100,100), Qt::AlignHCenter,  convertToArabic(scores2.at(i)));
-            p1.drawText(QRect(zeroScorex+485-160*2-10,zeroScore1y+deltaScorey*i,100,100), Qt::AlignHCenter, convertToArabic(scores3.at(i)));
+            p1.drawText(QRect(zeroScorex+485-160*2,zeroScore1y+deltaScorey*i,100,100), Qt::AlignHCenter, convertToArabic(scores3.at(i)));
             p1.drawText(QRect(zeroScorex-180,zeroScore1y+deltaScorey*i,200,100), Qt::AlignRight, convertToArabic(scores.at(i)));
         }
 
